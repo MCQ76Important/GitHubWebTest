@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pl" itemscope itemtype="https://schema.org/WebSite">
+<html lang="pl">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,28 +7,19 @@
   <meta name="description" content="Opis strony internetowej, która prezentuje najważniejsze informacje.">
   <meta name="theme-color" content="#317EFB">
   <meta name="color-scheme" content="light dark">
-  <link rel="canonical" href="https://twojastrona.pl/">
+  <link rel="canonical" href="https://spectacular-praline-ca8e571.netlify.app/">
 
+  <!-- Open Graph bez obrazu -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="Moja Strona WWW">
   <meta property="og:description" content="Opis strony internetowej, która prezentuje najważniejsze informacje.">
-  <meta property="og:url" content="https://twojastrona.pl/">
-  <meta property="og:image" content="https://twojastrona.pl/og-image.jpg">
+  <meta property="og:url" content="https://spectacular-praline-ca8e571.netlify.app/">
   <meta property="og:site_name" content="Moja Strona WWW">
   <meta property="og:locale" content="pl_PL">
 
-  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Moja Strona WWW">
   <meta name="twitter:description" content="Opis strony internetowej, która prezentuje najważniejsze informacje.">
-  <meta name="twitter:image" content="https://twojastrona.pl/twitter-image.jpg">
-
-  <link rel="icon" href="favicon.ico">
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  <link rel="manifest" href="site.webmanifest">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="styles.css">
   <script defer src="main.js"></script>
@@ -37,31 +28,22 @@
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
+    "@id": "https://spectacular-praline-ca8e571.netlify.app/#website",
+    "url": "https://spectacular-praline-ca8e571.netlify.app/",
     "name": "Moja Strona WWW",
-    "url": "https://twojastrona.pl/",
     "description": "Opis strony internetowej, która prezentuje najważniejsze informacje.",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Twoja Firma",
-      "logo": { "@type": "ImageObject", "url": "https://twojastrona.pl/logo.png" }
-    },
-    "image": "https://twojastrona.pl/og-image.jpg"
+    "publisher": { "@type": "Organization", "name": "Twoja Firma" }
   }
   </script>
 </head>
-
-<body itemscope itemtype="https://schema.org/WebPage">
-    <header>
-        <h1 itemprop="headline">Witamy na naszej stronie!</h1>
-    </header>
-    <main>
-        <section itemprop="mainContentOfPage">
-            <h2>O nas</h2>
-            <p>To jest przykładowa strona HTML z rozbudowaną sekcją HEAD. WWW</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 <span itemprop="publisher">Twoja Firma</span></p>
-    </footer>
+<body>
+  <header><h1>Witamy na naszej stronie!</h1></header>
+  <main>
+    <section>
+      <h2>O nas</h2>
+      <p>To jest przykładowa strona HTML z rozbudowaną sekcją HEAD.</p>
+    </section>
+  </main>
+  <footer>&copy; 2025 Twoja Firma</footer>
 </body>
 </html>
